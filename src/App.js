@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
+import useApiData from './hooks/useApiData';
+
+import FilmsContainer from './components/FilmsContainer';
+
 import './App.css';
 
 function App() {
+  const ghibliApi = 'https://ghibliapi.herokuapp.com/';
+
+  const [ data, isLoading ] = useApiData(ghibliApi);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <div className="g-Container">
+          <h1>Ghibli Films</h1>
+        </div>
       </header>
-    </div>
+
+      {isLoading ? (
+        <p>Loading</p>
+      ) : (
+        data && (
+          <FilmsContainer filmData={data} />
+        )
+      )}
+
+    </>
   );
 }
 
