@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ghibli-films/static/css/main.57fc983e.chunk.css",
+    "main.js": "/ghibli-films/static/js/main.e4544607.chunk.js",
+    "main.js.map": "/ghibli-films/static/js/main.e4544607.chunk.js.map",
+    "runtime-main.js": "/ghibli-films/static/js/runtime-main.c1b3e32e.js",
+    "runtime-main.js.map": "/ghibli-films/static/js/runtime-main.c1b3e32e.js.map",
+    "static/js/2.578967b9.chunk.js": "/ghibli-films/static/js/2.578967b9.chunk.js",
+    "static/js/2.578967b9.chunk.js.map": "/ghibli-films/static/js/2.578967b9.chunk.js.map",
+    "index.html": "/ghibli-films/index.html",
+    "precache-manifest.398a9342062b4237fd20a0c2085ee626.js": "/ghibli-films/precache-manifest.398a9342062b4237fd20a0c2085ee626.js",
+    "service-worker.js": "/ghibli-films/service-worker.js",
+    "static/css/main.57fc983e.chunk.css.map": "/ghibli-films/static/css/main.57fc983e.chunk.css.map",
+    "static/js/2.578967b9.chunk.js.LICENSE.txt": "/ghibli-films/static/js/2.578967b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1b3e32e.js",
+    "static/js/2.578967b9.chunk.js",
+    "static/css/main.57fc983e.chunk.css",
+    "static/js/main.e4544607.chunk.js"
+  ]
+}
