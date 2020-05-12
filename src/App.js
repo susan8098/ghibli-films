@@ -22,7 +22,9 @@ function App() {
         <p>Loading</p>
       ) : (
         data && (
-          <FilmsContainer filmData={data} />
+          <main>
+            <FilmsContainer filmData={data} />
+          </main>
         )
       )}
 

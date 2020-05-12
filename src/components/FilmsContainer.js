@@ -6,13 +6,11 @@ const FilmsContainer = (props) => {
     console.log(filmsArr);
 
     return (
-        <main>
-            <div className="g-Container">
-                {filmsArr.map( (film, i) => {
-                    return <FilmItem film={film} key={i} />
-                })}
-            </div>
-        </main>
+        <div className="g-Container c-FilmContainer">
+            {filmsArr.map( (film, i) => {
+                return <FilmItem film={film} key={i} />
+            })}
+        </div>
     )
 }
 

@@ -8,3 +8,22 @@ header {
   background: goldenrod;
   padding: 50px 0;
 }
+
+main {
+  padding: 50px 0;
+}
+
+.c-FilmContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.c-FilmItem_Img {
+  height: 200px;
+  background-color: palevioletred;
+}
+
+.c-FilmItem_Text {
+  padding: 10px 20px;
+}
